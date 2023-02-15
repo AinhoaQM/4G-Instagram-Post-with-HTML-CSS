@@ -1,0 +1,59 @@
+body {
+	background: black;
+	margin-top: 60px;
+}
+.post {
+	background-color: white;
+	width: 400px;
+	margin: auto;
+    font-family:"Roboto"
+
+}
+
+.post-header {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+}
+
+.icon-header{
+    align-self: center;
+    margin: 10px;
+}
+
+.post-title{
+    color: black;
+    align-self: center;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+.options-header{
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+}
+
+.caption{
+    display: flex;
+    padding: 5px 15px 5px 15px;
+}
+
+.icons-bar{
+    float: left;
+    margin: 2px;
+}
+
+.icon-bookmark{
+    float: right;
+    margin-left: auto;
+}
+
+.post-footer{
+    padding: 5px 15px 5px 15px;
+}
