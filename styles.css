@@ -1,6 +1,6 @@
 body {
 	background: black;
-	margin-top: 60px;
+	margin-top: auto;
 }
 .post {
 	background-color: white;
@@ -42,17 +42,10 @@ body {
 .caption{
     display: flex;
     padding: 5px 15px 5px 15px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.icons-bar{
-    float: left;
-    margin: 2px;
-}
-
-.icon-bookmark{
-    float: right;
-    margin-left: auto;
-}
 
 .post-footer{
     padding: 5px 15px 5px 15px;
